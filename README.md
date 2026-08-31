@@ -31,7 +31,7 @@ three clicks. Typing a number after clicking a centre sets the radius of the fir
 
 **Thickness** — Solidify the final geometry by this amount in scene units, upward from the drawing plane. 
 
-Keymap:
+##  Keymap:
 
 | | |
 |---|---|
