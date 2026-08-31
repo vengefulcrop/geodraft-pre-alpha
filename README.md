@@ -27,7 +27,7 @@ three clicks. Typing a number after clicking a centre sets the radius of the fir
 
 **Straight To Mesh** — immediately converts the drawing result to a polygon mesh upon drawing completion. 
 
-**Circle Segments** — set circle segments, same as the F scrubber menu. 
+**Circle Segments** — set the amount of circle vertices, same as the F scrubber menu. 
 
 **Thickness** — Solidify the final geometry by this amount in scene units, upward from the drawing plane. 
 
