@@ -4,7 +4,12 @@ Blender 5.3 add-on: draw flat, curve-based circles and capsules on a plane, for 
 
 ## Install
 
-Download the latest version from the Releases section. 
+Download the latest version from the Releases section.
+
+Enable this edition or the full GeoDraft, never both at the same time. The
+two have different extension ids, so Blender installs them side by side, but
+they register the same operator classes and the same toolbar idnames, and
+the second one to register wins.
 
 ## The tools
 
@@ -35,12 +40,12 @@ three clicks. Typing a number after clicking a centre sets the radius of the fir
 
 | | |
 |---|---|
-| `Alt` hold | makes the shape cut into any mesh it crosses on its path via boolean |
-| `F` hold + drag left-right | change the vertex count; type digits to set it to any value; hold Ctrl and drag to snap to increments in power of 2. |
+| `Alt` hold | makes the shape cut instead of add. It subtracts from the GeoDraft shapes it overlaps, whether they are still curves or have been converted to meshes. Everything else in the scene is left alone |
+| `F` hold + drag left-right | change the vertex count; type digits to set it to any value; hold Ctrl and drag to snap to multiples of 8. |
 | `Shift` hold | inverts the state of the Grid toggle while held |
 | `X` `Y` `Z` | align the drawing plane to one of the three axes with its positive normal facing the camera. If a point is already placed, the plane will be re-oriented around that point |
 | `N` | orient the drawing plane dynamically to the surface normal under the cursor |
-| `Ctrl` hold | if Blender's native vertex snapping is enabled and you're in N mode, temporarily disables snapping while held |
+| `Ctrl` hold | inverts geometry snapping while held. Blender's default has the magnet on with Grid as its only element, and nothing is snapping to geometry then, so Ctrl turns vertex and edge snapping on. If geometry snapping is already running, Ctrl suppresses it instead. Which elements count comes from Blender's own snap menu, and this works with or without `N` |
 | `V` toggle | Freeze all in-world widgets, such as the grid and the arrow pointer, in place, so that you can navigate freely, while they remain static. |
 | `PageUp` / `PageDown` | double or halve the grid step |
 | `Esc` | cancel |
