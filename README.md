@@ -4,7 +4,7 @@ Blender 5.3 add-on: draw flat, curve-based circles and capsules on a plane, for 
 
 ## Install
 
-Download the version from the Releases section. 
+Download the latest version from the Releases section. 
 
 ## The tools
 
