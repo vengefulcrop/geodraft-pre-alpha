@@ -13,8 +13,7 @@ the second one to register wins.
 
 ## The tools
 
-Both live in the 3D viewport Object Mode leftside toolbar, and both build the same thing: a curve
-object with a Geometry Nodes modifier that fills it. 
+`3D viewport > Object Mode > leftside toolbar` 
 
 **Draw Circle** — click the centre, click again for the radius. The drag
 angle sets where the first vertex lands, so it sets the rotation too. Clicking centre then typing a number will set the radius to that value in scene units. Click LMB or press Enter to finalize operation. 
