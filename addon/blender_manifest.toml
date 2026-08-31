@@ -1,0 +1,15 @@
+schema_version = "1.0.0"
+
+id = "geodraft_decals"
+version = "0.0.1"
+name = "GeoDraft Decals"
+tagline = "Circle and capsule drawing for decal work"
+maintainer = "vengefulcrop <lerig60@gmail.com>"
+type = "add-on"
+
+blender_version_min = "5.3.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
+]
+
