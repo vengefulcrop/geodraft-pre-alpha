@@ -34,7 +34,7 @@ Keymap:
 | `Alt` hold | makes the shape cut into any mesh it crosses on its path via boolean |
 | `F` hold + drag left-right | change the vertex count; type digits to set it to any value; hold Ctrl and drag to snap to increments in power of 2. |
 | `Shift` hold | inverts the state of the Grid toggle while held |
-| `X` `Y` `Z` | align the drawing plane to one of the three axes with its positive normal facing the camera. If a point is already placed, the plane will around re-oriented relative to that point |
+| `X` `Y` `Z` | align the drawing plane to one of the three axes with its positive normal facing the camera. If a point is already placed, the plane will be re-oriented around that point |
 | `N` | orient the drawing plane dynamically to the surface normal under the cursor |
 | `Ctrl` hold | if Blender's native vertex snapping is enabled and you're in N mode, temporarily disables snapping while held |
 | `V` toggle | Freeze all in-world widgets, such as the grid and the arrow pointer, in place, so that you can navigate freely, while they remain static. |
