@@ -22,9 +22,13 @@ three clicks. Typing a number after clicking a centre sets the radius of the fir
 ## Top Bar options:
 
 **Grid Step** — scale scene grid by this much, same option can be found natively in the overlay menu of Blender. 
+
 **Grid** — whether to use the snapping grid that matches the scene grid or not. 
+
 **Straight To Mesh** — immediately converts the drawing result to a polygon mesh upon drawing completion. 
+
 **Circle Segments** — set circle segments, same as the F scrubber menu. 
+
 **Thickness** — Solidify the final geometry by this amount in scene units, upward from the drawing plane. 
 
 Keymap:
