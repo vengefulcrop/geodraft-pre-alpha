@@ -15,7 +15,7 @@ the second one to register wins.
 
 `3D viewport > Object Mode > leftside toolbar` 
 
-**Draw Circle** — click the centre, click again for the radius. The drag
+**Draw Circle** — click a point to establish the centre, click a different point for the radius extent. The drag
 angle sets where the first vertex lands, so it sets the rotation too. Clicking centre then typing a number will set the radius to that value in scene units. Click LMB or press Enter to finalize operation. 
 
 **Draw Capsule** — click a centre and a radius, then a second centre and a
