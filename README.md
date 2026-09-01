@@ -6,11 +6,6 @@ Blender 5.3 add-on: draw flat, curve-based circles and capsules on a plane, for 
 
 Download the latest version from the Releases section.
 
-Enable this edition or the full GeoDraft, never both at the same time. The
-two have different extension ids, so Blender installs them side by side, but
-they register the same operator classes and the same toolbar idnames, and
-the second one to register wins.
-
 ## The tools
 
 `3D viewport > Object Mode > leftside toolbar` 
