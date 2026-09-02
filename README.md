@@ -1,6 +1,6 @@
 # GeoDraft Decals
 
-Blender 5.3 add-on: draw flat, curve-based circles and capsules on a plane, for decal work.
+Blender 5.2+ add-on: draw flat, curve-based circles and capsules on a plane, for decal work.
 
 ## Install
 
