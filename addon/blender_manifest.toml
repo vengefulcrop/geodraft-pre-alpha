@@ -1,7 +1,7 @@
 schema_version = "1.0.0"
 
 id = "geodraft_decals"
-version = "0.0.1"
+version = "0.0.2"
 name = "GeoDraft Decals"
 tagline = "Circle and capsule drawing for decal work"
 maintainer = "vengefulcrop <lerig60@gmail.com>"
